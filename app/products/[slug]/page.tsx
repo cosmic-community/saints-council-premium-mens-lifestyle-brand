@@ -53,7 +53,7 @@ export default async function ProductPage({
         <div className="grid md:grid-cols-2 gap-12">
           {/* Product Images */}
           <div>
-            {allImages.length > 0 && (
+            {allImages.length > 0 && allImages[0] && (
               <div className="space-y-4">
                 <div className="aspect-square rounded-lg overflow-hidden">
                   <img
